@@ -4,7 +4,7 @@ Given port&protocol combination exists in the lookup table.
 If a port&protocol combination does not exist then the flowlog data will be tagged as "untagged"
 
 ### Compile/Run program
-Compile the Java code by typing “javac [filename].java” in the command prompt/terminal.
+Run the Java code by typing "java FlowLogProgram.java" in the command prompt/terminal. Don't have to compile beforehand. Note: Use Java 11 SDK or above.
 Input files ( flow log file and  lookup file ) need to be present in the same location as the program file.
 No additional dependencies need to be installed to compile/execute the program.
 
