@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class FlowLogProgram {
     /**
-     * Compile your Java code by typing “javac [filename].java” in the command prompt/terminal
+     * Run the Java code by typing "java FlowLogProgram.java" in the command prompt/terminal. Don't have to compile beforehand. Note: Use Java 11 SDK or above
      *
      * A static variable representing a look-up table mapping integers to maps of strings.
      * Each integer key corresponds to a map that stores string key-value pairs in lower case.
@@ -24,7 +24,7 @@ public class FlowLogProgram {
 
         lookUpTable = new HashMap<>();
 
-        // Read the lookup and flowlog data file. NOTE: Please provide the input ( look up table and flow log data) file in the same location where this program run from
+        // Read the lookup and flowlog data file. NOTE: Please provide the input ( look up table and flow log data) file in the same location where this program is run from
         readLookup("lookup.csv");
         List<String> input = readFlowData("flowlogdata.csv");
         // maps to compute the required counts
