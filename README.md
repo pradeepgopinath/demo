@@ -2,6 +2,7 @@
 ### Assumptions made
 Given port&protocol combination exists in the lookup table.
 If a port&protocol combination does not exist then the flowlog data will be tagged as "untagged"
+Tested the program with input file ( containing flow log data ) of few MB's as per problem statement. 
 
 ### Compile/Run program
 Run the Java code by typing "java FlowLogProgram.java" in the command prompt/terminal. Don't have to compile beforehand. Note: Use Java 11 SDK or above.
